@@ -6,10 +6,10 @@ public class Actividad1 {
         System.out.println("Hola mundo");
         Scanner escaner = new Scanner(System.in);
         System.out.println("Ingrese su altura (cm)");
-        Double altura = escaner.nextDouble()/100;
+        double altura = escaner.nextDouble()/100;
         System.out.println("Ingrese su peso (kg)");
-        Double peso = escaner.nextDouble();
-        Double imc = CalculoIMC.calcular(altura,peso);
+        double peso = escaner.nextDouble();
+        double imc = CalculoIMC.calcular(altura,peso);
         System.out.println("El IMC es: "+imc);
     }
 }
