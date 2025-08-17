@@ -3,7 +3,6 @@ import java.util.Scanner;
 
 public class Actividad1 {
     public static void ejecutar(){
-        System.out.println("Hola mundo");
         Scanner escaner = new Scanner(System.in);
         System.out.println("Ingrese su altura (cm)");
         double altura = escaner.nextDouble()/100;
